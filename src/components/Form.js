@@ -20,7 +20,6 @@ function Form(){
                         type="text" 
                         id="name" name="name" 
                         placeholder="Digite seu nome"
-                        value = {name}
                         onChange={(e) => setName(e.target.value)}
                     />
                 </div>
